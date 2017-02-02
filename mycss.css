@@ -1,0 +1,46 @@
+/**
+ * Created by Ramkumar on 02-02-2017.
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 12px;
+}
+.inline-container {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.main-container {
+    padding: 50px;
+}
+/*setting properties for body*/
+body {
+	font-family: Arial, Verdana, Sans-serif;
+	text-align: center;
+	padding: 30px 0;
+	line-height: 20px;
+        background-color: #557b83;
+}
+
+/* setting properties for img tag */
+img{
+background-color:#39aea9;
+width: 150px;
+height: 150px;
+border: 0px none;
+margin: 10px;
+border:5px solid #F7F7F7;
+}
+/* Defining footer class to set the footer in bottom of the page */
+#footer {
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+	color: #fcf8e3
+}
